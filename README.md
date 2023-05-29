@@ -62,11 +62,11 @@ The analysis comprises three main components:
 
 **Selected analysis -- Noisy data shows a regular scaling trend**: We show that for inputs injected with noise and factually incorrect sequences, the perplexity still decreases as model size increases.
 
-<img src="images/section2/noise.png" data-canonical-src="images/section2/noise.png" width="800"/>
+<img src="images/section2/noise.png" data-canonical-src="images/section2/noise.png" width="600"/>
 
 **Selected analysis -- Sequences that follow an inverse scaling trend**: We found sequences that follow an inverse scaling trend ($p_s - p_l$) as the model size increases by maximizing the probablity of the small model and minimizing the probability of the large model. The following graph shows that such a inverse scaling trend holds across model families, where the sequences are generated with OPT models and are evaluated on the GPT-Neo models. 
 
-<img src="images/section2/gpt-neo.png" data-canonical-src="images/section2/gpt-neo.png" width="800"/>
+<img src="images/section2/gpt-neo.png" data-canonical-src="images/section2/gpt-neo.png" width="600"/>
 
 ### 3️⃣ Downstream tasks
 This analysis consists of three parts:
@@ -78,11 +78,11 @@ This analysis consists of three parts:
   
 **Selected analysis -- Downstream performance align with validation perplexity**: Such a trend is model agostic. Two models at the same perplexity level achieve similar downstream task performances, regardless of model sizes. 
 
-<img src="images/section3/task_performance.png" data-canonical-src="images/section3/task_performance.png" width="800"/>
+<img src="images/section3/task_performance.png" data-canonical-src="images/section3/task_performance.png" width="600"/>
 
 **Selected analysis -- Emergence occurs smoothly on trajectory**: Our investigation reveals that tasks demonstrating an emergent performance boost, commonly known as breakthroughness tasks, exhibit a smooth learning progression along the trajectory. This finding aligns with what is found in [Schaeffer et al., 2023](https://arxiv.org/abs/2304.15004), where they observe that transitioning from non-linear or discontinuous metrics, such as model sizes, to linear or continuous metrics like perplexity, results in smooth and continuous changes. In our study, we have observed a similar pattern when altering the granularity of evaluation points from models of different sizes to intermediate checkpoints.
 
-<img src="images/section3/what_is_tao_joint.png" data-canonical-src="images/section3/what_is_tao_joint.png" width="800"/>
+<img src="images/section3/what_is_tao_joint.png" data-canonical-src="images/section3/what_is_tao_joint.png" width="600"/>
 
 ## ❓ Bugs or Questions?
 If you have any questions related to the code or the paper, feel free to email Mengzhou (mengzhou@princeton.edu). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
