@@ -31,11 +31,9 @@ To illustrate this, the validation curves presented below depict five checkpoint
 Each part's analysis code is released in a separate notebook. Please note that the code for performing inference with model checkpoints, either for language modeling or downstream tasks, is not included in this repository. We solely provide code for the analysis conducted once all results have been gathered. 
 
 ### 📥 Preparation
+Please download the our analysis results via [this link](https://drive.google.com/file/d/1ivlsydPqgMpm1t1hHiNAPEPCLYBvo7ZF/view?usp=sharing)
 ```
 git clone https://github.com/xiamengzhou/training_trajectory_analysis.git  
-
-# Please download the our analysis results via [this link](https://drive.google.com/file/d/1ivlsydPqgMpm1t1hHiNAPEPCLYBvo7ZF/view?usp=sharing).  
-
 unzip data.zip   
 mv data training_trajectory_analysis
 ```
